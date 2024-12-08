@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    flex-direction: column;
+    display: flex;
+
+}
+
+/*navbar*/
+.navbar{
+    width: 100%;
+    background: white;
+    height: 90px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgb(0 0 0 /10%),
+    0 0 2px rgb(0 0 0 /7%);
+    font-size: 15px;
+}
+.cabeza{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu a{
+    margin: 1px;
+    color:#000;
+    text-decoration: none;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.navbar li{
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar-menu a:hover{
+    color: hsl(164, 31%, 17%);
+    border-bottom: 4px solid #1e3932;
+}
+
+.navbar-inicio a:hover{
+    color:gray;
+}
+
+.cabeza img{
+    width: 50px;
+    height: 50px;
+    margin-left: 55px;
+    margin-right: 20px;
+}
+
+.navbar-menu{
+    text-transform: uppercase;
+    flex: 1;
+    margin-left: 20px;
+    text-decoration:none;
+    margin: 0 5px;
+}
+.navbar-menu a{
+    margin: 2px;
+}
+
+.navbar-inicio{
+    margin-right: 30px;
+}
+
+.navbar-inicio img{
+height: 20px;
+width: 20px;
+margin-right: 1px;
+}
+
+.button, .button2{
+    cursor: pointer;
+    display: inline-block;
+    background: none;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+}
+.button{
+    border-color: #000;
+    color:#000;
+}
+
+.button2{
+    background-color: #000;
+    color: white;
+}
+
+.col{
+    color: #000;
+}
+
+.Container {
+    width:100%;
+    height: auto;
+    margin-bottom: 30px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+.Container h2{
+    font-size: 30px;
+    font-weight:700;
+    color: white;
+}
+
+.Container-SB {
+    padding: 8%;
+    text-align: center;
+    font-size: 20px;
+}
+
+#Container-1 {
+    background-color: #1e3932;
+}
+
+#Container-1 p,a{
+    color: white;
+    text-decoration: none;
+    font-weight:500;
+}
+
+#Container-1 img{
+    width: 50vw;
+    height: auto;
+    align-items: center;
+}
+#Container-2 {
+    background-color: #0044b4;
+}
+
+#Container-2 img{
+    width: 50vw;
+    height: auto;
+
+}
+
+#Container-2 p{
+    color: white;
+}
+
+#Container-3 {
+    background-color: #d50032;
+}
+
+#Container-3 img{
+    width: 50vw;
+    height: auto;
+    
+}
+
+#Container-3 p{
+    color: white;
+}
+
+#Container-4 {
+    background-color: #1e3932;
+}
+
+#Container-4 img{
+    width: 50vw;
+    height: auto;
+}
+
+#Container-4 p{
+    color: white;
+}
+
+#Container-5 {
+    background-color: #d50032;
+}
+
+#Container-5 img{
+    width: 50vw;
+    height: auto;
+}
+
+#Container-5 p{
+    color: white;
+}
