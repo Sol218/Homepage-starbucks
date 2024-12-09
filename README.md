@@ -24,4 +24,10 @@ Empezar a desarrollar el homepage de Starbucks implementando las siguientes cara
 * README
 ![Vista previa del codigo](https://subir-imagen.com/images/2024/12/08/image.png)
 
+## Proyecto 2 "Finalización de Homepage de Starbucks"
+![Vista previa de Homepage finalizada](https://subir-imagen.com/images/2024/12/09/image9cbbc615d5d6c20f.png)
+
+## Objetivo proyecto "Parte 2"
+Finalizar el homepage de Starbucks creado anteriormente y actualizar el repositorio y el sitio web público.
+![Vista previa del codigo](https://subir-imagen.com/images/2024/12/09/image51ce1c2a26307bec.png)
 🚧Proyecto en construcción🚧
