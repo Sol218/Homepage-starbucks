@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/*navbar*/
+.navbar{
+    width: 100%;
+    background: white;
+    height: 90px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgb(0 0 0 /10%),
+    0 0 2px rgb(0 0 0 /7%);
+    font-size: 15px;
+}
+.cabeza{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu a{
+    margin: 1px;
+    color:#000;
+    text-decoration: none;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.navbar li{
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar-menu a:hover{
+    color: hsl(164, 31%, 17%);
+    border-bottom: 4px solid #1e3932;
+}
+
+.navbar-inicio a:hover{
+    color:gray;
+}
+
+.cabeza img{
+    width: 50px;
+    height: 50px;
+    margin-left: 55px;
+    margin-right: 20px;
+}
+
+.navbar-menu{
+    display: flex;
+    text-transform: uppercase;
+    flex: 1;
+    margin-left: 20px;
+    text-decoration:none;
+    margin: 0 5px;
+}
+.navbar-menu a{
+    margin: 2px;
+}
+
+.navbar-inicio{
+    margin-right: 30px;
+}
+
+.navbar-inicio img{
+height: 20px;
+width: 20px;
+margin-right: 1px;
+}
+
+.button, .button2, .button3, .button4{
+    cursor: pointer;
+    display: inline-block;
+    background: none;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 6px 10px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+}
+.button{
+    border-color: #000;
+    color:#000;
+}
+
+.button2{
+    background-color: #000;
+    color: white;
+}
+
+.col{
+    color: #000;
+}
+
+.Rewards-container{
+    display: flex;
+    margin-top: 90px;
+    height: calc(100vh - 90px);
+    flex-direction: row;
+}   
+
+.left-container{
+    flex: 1;
+    align-items: center;
+    position: fixed;
+    top: 90px;
+    width: 40vw;
+    height: 570px;
+    background-color:#125741;
+    color: white;
+    padding: 50px;
+    background-image:url(https://subir-imagen.com/images/2024/12/12/image.png);
+    background-position: right bottom;
+    background-size: 290px auto;
+    background-repeat: no-repeat;
+}
+
+.right-container{
+    display: flex;
+    flex:1;
+    width: 50vw;
+    height: auto;
+    margin-left: 46vw;
+    padding-top: 20px; 
+    margin-top: 0;
+    flex-direction: column;
+}
+
+.left-container img{
+width: 300px;
+height: auto;
+margin-left: 80px;
+margin-top: 140px;
+}
+
+.left-container h2{
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.button3{
+    color: white;
+    border-color: white;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-right: 50px;
+    font-weight: 700;
+}
+
+.button3:hover{
+    color:#008248;
+    border-color: #008248;
+    
+}
+
+.button4{
+    background-color: white;
+    color: rgb(56, 56, 56);
+    border-color: white;
+    font-size: 14px;
+}
+
+#p1, #p2 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#p1{
+    margin-top: 20px;
+}
+
+
+.s1, .s3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.s11, .s33{
+    width: 20%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.s1 img, .s3 img{
+    width: 120px;
+    height: auto;
+}
+
+.s1 p{
+    line-height: 1.5;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#estrella{
+    width: 30px;
+    height: auto;
+}
+
+#p2{
+margin-top: 80px;
+}
+
+.s4{
+    background-color: #f1f0eb;
+    width: 58.5vw;
+    height: 100vh;
+    margin-left: -80px;
+    text-align: center;
+}
+
+.s4 img{
+    width: 25vw;
+    height: auto;
+    margin-top: 20px;
+}
+
+.s4 h2{
+    margin-top: 40px;
+    font-size: 26;
+    font-weight: 600;
+}
+
+.s4 p{
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 600;
+}
