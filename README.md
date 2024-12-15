@@ -22,6 +22,7 @@ Empezar a desarrollar el homepage de Starbucks implementando las siguientes cara
 * Contenido semántico
 * Orden correcto
 * README
+  
 ![Vista previa del codigo](https://subir-imagen.com/images/2024/12/08/image.png)
 
 ## Proyecto 2 "Finalización de Homepage de Starbucks"
@@ -29,14 +30,25 @@ Empezar a desarrollar el homepage de Starbucks implementando las siguientes cara
 
 ## Objetivo proyecto "Parte 2"
 Finalizar el homepage de Starbucks creado anteriormente y actualizar el repositorio y el sitio web público.
+
 ![Vista previa del codigo](https://subir-imagen.com/images/2024/12/09/image51ce1c2a26307bec.png)
 
-## Objetivo proyecto 3 "Inicialización de Rewards"
+## Proyecto 3 "Inicialización de Rewards"
 ![Vista previa de inicialización de Rewards](https://subir-imagen.com/images/2024/12/14/imageeeb89f3647e8ec79.png)
 
 ## Objetivo proyecto "Parte 3"
 Iniciar el apartado Rewards de Starbucks creando un HTML que use más propiedades de CSS agregandolo al proyecto de Homepage de Starbucks, actualizando el repositorio y sitio web público.
+
 ![Vista previa del codigo inicialización de Rewards en HTML](https://subir-imagen.com/images/2024/12/14/image.png)
 ![Vista previa del codigo inicialización de Rewards en CSS](https://subir-imagen.com/images/2024/12/14/image1652edb51c9ff5c2.png)
+
+## Proyecto 4 "Finalización de Rewards"
+![Vista previa de inicialización de Rewards](https://subir-imagen.com/images/2024/12/15/image.png)
+
+## Objetivo proyecto "Parte 4"
+Concluir el apartado Rewards de Starbucks, actualizando el repositorio y sitio web público.
+
+![Vista previa del codigo finalización de Rewards en HTML](https://subir-imagen.com/images/2024/12/15/imagef1797465483dabfb.png)
+![Vista previa del codigo finalización de Rewards en CSS](https://subir-imagen.com/images/2024/12/15/image2e53085c4691eaed.png)
 
 🚧Proyecto en construcción🚧
