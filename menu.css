@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    flex-direction: column;
+    display: flex;
+
+}
+
+/*navbar*/
+.navbar{
+    width: 100%;
+    background: white;
+    height: 90px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgb(0 0 0 /10%),
+    0 0 2px rgb(0 0 0 /7%);
+    font-size: 15px;
+}
+.cabeza{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu a{
+    margin: 1px;
+    color:#000;
+    text-decoration: none;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.navbar li{
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar-menu a:hover{
+    color: hsl(164, 31%, 17%);
+    border-bottom: 4px solid #1e3932;
+}
+
+.navbar-inicio a:hover{
+    color:gray;
+}
+
+.cabeza img{
+    width: 50px;
+    height: 50px;
+    margin-left: 55px;
+    margin-right: 20px;
+}
+
+.navbar-menu{
+    text-transform: uppercase;
+    flex: 1;
+    margin-left: 20px;
+    text-decoration:none;
+    margin: 0 5px;
+}
+.navbar-menu a{
+    margin: 2px;
+}
+
+.navbar-inicio{
+    margin-right: 30px;
+}
+
+.navbar-inicio img{
+height: 20px;
+width: 20px;
+margin-right: 1px;
+}
+
+.button, .button2{
+    cursor: pointer;
+    display: inline-block;
+    background: none;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+}
+.button{
+    border-color: #000;
+    color:#000;
+}
+
+.button2{
+    background-color: #000;
+    color: white;
+}
+
+.col{
+    color: #000;
+}
+
+.menu{
+    width: 100%;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.sec1 h2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 60px;
+}
+
+.bebidas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32.5px;
+    width: 100%;
+}
+
+.be11{
+    text-align: center;
+}
+
+.be11 img, .ali11 img, .cafe11 img{
+    width: 120px;
+    height: auto;
+}
+
+.be11 p, .ali11 p, .cafe11 p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.img1, .img2{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    background-color: #1e3932;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1{
+    margin-left: calc(100%/3);
+}
+
+.img2{
+    margin-left: 140px;
+}
+
+.img1:hover, .img2:hover{
+    cursor: pointer;
+    box-shadow: 0 0 0 10px #c6d4e4;
+}
+.sec1 p, .menu p{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.sec1 p{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+#TA {
+    margin-left: 80px;
+}
+
+#TC {
+    margin-left: 125px;
+}
+
+#caja{
+    width: 90%;
+    margin-left: 60px;
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #999;
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 1px 3px rgb(0 0 0 /10%);
+}
+
+.footer-container{
+display: flex;
+width: 100%;
+height: 280px;
+padding: 20px;
+line-height: 2.5;
+box-shadow: 0 1px 0 0 rgb(0 0 0  /10%);
+}
+
+.Contactos{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Contactos p{
+margin-top: 1px;
+font-size: 18px;
+font-weight: 500;
+}
+
+.Contactos ul{
+list-style: none;
+padding: 0;
+}
+
+.Contactos ul li{
+    margin-bottom: 5px;
+}
+
+.Contactos ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+}
+
+.Contactos ul li a:hover{
+    color: black;
+}
+
+.FCS, .FCA{
+    margin-left: 30px;
+}
+
+.footer-container2{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Redes{
+    display: flex;
+    gap: 30px;
+}
+
+.Redes a{
+    text-decoration: none;
+}
+
+.Redes img{
+    width: 34px;
+    height: 34px;
+}
+
+.footer-container3{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 15px;
+    color: #999;
+    font-size: 16px;
+}
+.pie{
+    display: flex;
+    gap: 15px;
+}
+.pie p{
+    box-shadow: 2px 0 0 0 rgb(0 0 0  /10%);
+}
+
+.footer-container4{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-top: 30px;
+    color: #999;
+    font-size: 14px;
+}
+
+.footer-container5{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-top: 1px;
+    color: #999;
+    font-size: 10px;
+    gap: 6px;
+}
+
+.pie3{
+    display: flex;
+    gap: 6px;
+}
+.pie3 p{
+    box-shadow: 1px 0 0 0 rgb(0 0 0  /10%);
+}
