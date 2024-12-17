@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="unete.css">
+    <title>Homepage Starbucks</title>
+</head>
+<body>
+    <header>
+        <!-- Barra de navegación -->
+        <nav class="navbar">
+            <div class="cabeza"> 
+                <div class="ps">
+                    <img src="https://www.starbucks.com.mx/static/images/logo.svg" alt="Logo Starbucks">
+                </div>
+                <ul class="navbar-menu">
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="Rewards.html">REWARDS</a></li>    
+                </ul>
+
+                <ul class="navbar-inicio">
+                    <li><a class="col" href="https://www.starbucks.com.mx/stores"><img src="https://subir-imagen.com/images/2024/12/10/image.png">LOCALIZA TU TIENDA</a></li>
+                    <li><a class="button" href="https://rewards.starbucks.mx/login">Inicia sesión</a></li>
+                    <li><a class="button2" href="https://rewards.starbucks.mx/register">Únete ahora</a></li>   
+                </ul>
+            </div>
+        </nav>     
+    </header>
+    
+    <!-- Contenido principal -->
+    <section class="Rewards-container">
+        <!-- Contenedor izquierdo -->
+        <section class="left-container">
+            <h1>Registro</h1>
+        </section>
+        <!-- Contenedor derecho -->
+        <section class="right-container">
+            <!-- Seccion de Formulario -->
+            <section class="fc">
+            <section class="form-container">
+                <form>
+                    <section class="texto1">
+                    <strong>Información personal</strong><p id="text"> (*) campos obligatorios</p>
+                    <p id="text2">Regístrate y comienza a vivir la experiencia Starbucks Rewards™!</p>
+                    </section>
+                    <section class="form-g">
+                        <label for="Nombre(s)">
+                            <p id="asterisco">*</p><p> Nombre(s)</p> 
+                        </label>
+                        <input type="text" id="Nombre(s)" placeholder="Nombre(s)*">
+                    </section>
+                    <section class="form-g">
+                        <label for="Apellido paterno">
+                            <p id="asterisco">*</p><p> Apellido paterno</p> 
+                        </label>
+                        <input type="text" id="Apellido paterno" placeholder="Apellido paterno*">
+                    </section>
+                    <section class="form-g">
+                        <label for="Email">
+                            <p id="asterisco">*</p><p> Email</p> 
+                        </label>
+                        <input type="email" id="Email" placeholder="Email*">
+                    </section>
+                    <section class="form-g">
+                        <label for="Confirmar_Email">
+                            <p id="asterisco">*</p><p> Confirmar Email</p> 
+                        </label>
+                        <input type="email" id="Confirmar_Email" placeholder="Confirmar Email*">
+                    </section>
+                    <section class="form-g">
+                        <label for="password">
+                            <p id="password">*</p><p> Contraseña</p> 
+                        </label>
+                        <input type="password" id="password" placeholder="Contraseña*">
+                    </section>
+                    <section class="form-g">
+                        <label for="Confirmar_password">
+                            <p id="password">*</p><p> Confirmar contraseña</p> 
+                        </label>
+                        <input type="password" id="Confirmar_password" placeholder="Confirmar Contraseña*">
+                    </section>
+                    <section class=form-d>
+                        <section class="texto2">
+                        <label>Fecha de Nacimiento</label><span>(Opcional)</span>
+                        </section>
+                        <p>Agrega tu fecha de cumpleaños para otorgarte una bebida gratis en el mes de tu cumpleaños</p>
+                        <section class="cumple">
+                            <select name="month" id="month" placeholder="Mes">
+                                <option value="Mes">Mes</option>
+                                <option value="Enero">Enero</option>
+                                <option value="Febrero">Febrero</option>
+                                <option value="Marzo">Marzo</option>
+                                <option value="Abril">Abril</option>
+                                <option value="Mayo">Mayo</option>
+                                <option value="Junio">Junio</option>
+                                <option value="Julio">Julio</option>
+                                <option value="Agosto">Agosto</option>
+                                <option value="Septiembre">Septiembre</option>
+                                <option value="Octubre">Octubre</option>
+                                <option value="Noviembre">Noviembre</option>
+                                <option value="Diciembre">Diciembre</option>
+                            </select>
+                            <select name="day" id="day" placeholder="Dia">
+                                <option value="Dia">Dia</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                        </section>
+                        <section class="texto3">
+                        <h3>Ingresa a Starbucks Rewards</h3>
+                        <p>Únete a Starbucks Rewards™ y disfruta de beneficios especiales.</p>
+                        </section>
+                        <section class="rewards-options">
+                            <label id="ly">
+                                <input type="radio" name="rewards" value="nueva">Quiero recibir una Starbucks Card digital instantánea
+                            </label>
+                            <label id="ly">
+                                <input type="radio" name="rewards" value="existente"> Quiero unirme con una Starbucks Card que ya tengo
+                            </label>
+                        </section>
+                        <h4>Términos y Condiciones</h4>
+                        <section class="terms">
+                            <label>
+                                <input type="checkbox" name="promotions"> Deseo recibir novedades sobre productos y promociones
+                            </label>
+                            <label>
+                                <input type="checkbox" name="required"> Acepto los <a id="tyc" href="https://rewards.starbucks.mx/tos/rewards">Términos y Condiciones </a>y <a id="tyc" href="https://rewards.starbucks.mx/privacy/rewards">Aviso de Privacidad</a>
+                            </label>
+                        </section>
+                        <section class="button3">
+                            <a href="https://rewards.starbucks.mx/register" target="_blank">Registrame</a>
+                        </section>
+                    </section>
+                </form>
+            </section>
+        </section>
+        <!-- Unete a Starbucks -->
+        <section class="sec2">
+            <h2>¡SER PARTE DE STARBUCKS REWARDS™ ES MUY FÁCIL!</h2>
+        </section>               
+        <!--Pie de pagina-->
+    <footer>
+        <!--Seccion de contacto-->
+     <section class="footer-container">
+        <section class="Contactos">
+        <ul class="FCS">
+        <li><p>Sobre Nosotros</p></li>
+        <li><a href="https://historias.starbucks.com/es/">Historias Starbucks</a><br></li>
+        </ul>
+
+        <ul class="FCA">
+        <li><p>Atención al cliente</p></li>
+        <li><a href="https://rewards.starbucks.mx/atencion-cliente">Contáctanos</a></li>
+        <li><a href="https://alsea.interfactura.com/RegistroDocumento.aspx?opc=Starbucks">Facturas Electrónicas</a><br></li>
+        <li><a href="https://www.starbucks.com.mx/seccion/experiencia-starbucks">Formas de comprar</a></li>
+        </ul>
+        </section>
+     </section>
+        <!--Seccion de redes-->
+    <section class="footer-container2">
+        <section class="Redes">
+        <a href="https://www.facebook.com/StarbucksMexico"><img src="https://subir-imagen.com/images/2024/12/09/image79ac174ca77b4ded.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/starbucksMex/"><img src="https://subir-imagen.com/images/2024/12/09/image.png " alt="Instagram"></a>
+        <a href="https://x.com/StarbucksMex?mx=2"><img src="https://i.postimg.cc/J09smjgM/image.png" alt="Twitter"></a>
+        <a href="https://www.youtube.com/user/StarbucksMexico?app=desktop"><img src="https://subir-imagen.com/images/2024/12/09/imagefc374392e563bdf6.png" alt="Youtube"></a>     
+        </section>   
+     </section>
+     <section class="footer-container3">
+        <section class="pie">
+        <p>Accesibilidad Web</p>
+        <p>Aviso de Privacidad</p>
+        <p>Boletines</p>
+        <p>Condiciones de uso</p>
+        <p>Mapa del sitio</p>
+        </section>
+        <p>Preferencias sobre cookies</p>
+     </section>
+     <section class="footer-container4">
+        <p>Ⓒ 2024. Starbucks Cofee Company. Reservados todos los derechos</p>
+    </section>
+    <section class="footer-container5">
+        <section class="pie3">
+        <p>mx</p>
+        <p>prod</p>
+        <p>5efee83dd153c6a598a78f0bf36e131f98ed3eba</p>
+        </section>
+        <p>04/11/2024-05:34:23:403</p>
+    </section>
+    </footer>
+</section> 
+</section> 
+</body>
+</html>
