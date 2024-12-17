@@ -54,10 +54,37 @@ Concluir el apartado Rewards de Starbucks, actualizando el repositorio y sitio w
 ## Proyecto 5 "Creación de Menú"
 ![Vista previa de creación Menú](https://subir-imagen.com/images/2024/12/15/image5f543942b92618e1.png)
 
-## Objetivo proyecto "Parte 4"
+## Objetivo proyecto "Parte 5"
 Creación del apartado Menú de Starbucks, actualizando el repositorio y sitio web público.
 
 ![Vista previa del codigo del apartado Menú en HTML](https://subir-imagen.com/images/2024/12/15/image0abf0bbaffe0ed35.png)
 ![Vista previa del codigo del apartado Menú en CSS](https://subir-imagen.com/images/2024/12/15/imagea1bc8bd0b0c117d5.png)
+
+## Proyecto 6 "Creación de Inicia sesión y Únete ahora"
+![Vista previa de creación Inicia sesión](https://subir-imagen.com/images/2024/12/17/image.png)
+![Vista previa de creación Únete ahora](https://subir-imagen.com/images/2024/12/17/image54a7d2882f359693.png)
+
+## Objetivo proyecto "Parte 6"
+Creación del apartado Inicia sesión y Únete ahora de Starbucks, actualizando el repositorio y sitio web público.
+
+### Inicia sesión
+
+HTML
+
+![Vista previa del codigo del apartado Inicia sesión en HTML](https://subir-imagen.com/images/2024/12/17/imageadefd2ab8224bd2b.png)
+
+CSS
+
+![Vista previa del codigo del apartado Inicia sesión en CSS](https://subir-imagen.com/images/2024/12/17/image415b6cb61375c834.png)
+
+### Únete ahora
+
+HTML
+
+![Vista previa del codigo del apartado Únete ahora en HTML](https://subir-imagen.com/images/2024/12/17/image13d77e482b0ed815.png)
+
+CSS
+
+![Vista previa del codigo del apartado Únete ahora en CSS](https://subir-imagen.com/images/2024/12/17/imagee77a9a4b1fd69703.png)
 
 🚧Proyecto en construcción🚧
